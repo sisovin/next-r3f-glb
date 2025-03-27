@@ -1,4 +1,4 @@
-# next-r3f-glb
+# Next R3F GLB
 
 ## Project Description and Objectives
 
@@ -9,6 +9,37 @@ To begin, we'll cover the necessary setup and installation of Next.js and React 
 Throughout this R3f tutorial, we'll emphasize the importance of leveraging Next.js capabilities to efficiently manage and serve our 3D assets. We'll discuss how to organize our project structure, properly import GLB models, and take advantage of Next.js's server-side rendering capabilities for improved performance. Additionally, we'll explore various React Three Fiber features that enhance the visualization of our GLB models, such as adding lights, shadows, textures, and animations.
 
 By the end of this project, you'll have a solid understanding of how to create dynamic and immersive 3D experiences using R3f, Next.js, and GLB models. Whether you're a beginner or an experienced developer, this project will provide valuable insights into loading GLB 3D models in React Three Fiber. Guide me on this journey of building visually stunning and interactive web applications. Let's bring your creativity to life with React Three Fiber and Next.js.
+
+## Project Structure:
+
+next-r3f-glb/
+├── public/
+│   ├── models/
+│   │   ├── scene.glb  # Your 3D model
+│   └── favicon.ico
+├── app/
+│   ├── components/
+│   │   ├── Model.tsx  # Separate component for loading GLB models
+│   ├── page.tsx       # Main homepage (renders the 3D scene)
+│   ├── layout.tsx     # (Optional) Global layout for Next.js App Router
+│   ├── globals.css    # Global styles
+├── styles/
+│   ├── canvas.css     # Custom styles for Canvas
+├── package.json       # Dependencies
+├── tsconfig.json      # TypeScript config
+├── next.config.js     # Next.js config (optional)
+├── .gitignore         # Git ignored files
+└── README.md          # Documentation
+
+**Step to follows**:
+1. app/components/Model.tsx (GLB Loader Component)
+2. app/page.tsx (Main 3D Scene)
+3. public/models/scene.glb
+4. styles/canvas.css (Optional)
+5. next.config.js (Optional)
+6. package.json
+7. Deployment on Vercel
+8. Final Thoughts (animations, textures, or advanced interactions)
 
 ## Setup and Installation
 
